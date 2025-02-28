@@ -7,4 +7,4 @@ for var in ['GITHUB_TOKEN', 'MY_PRECIOUS']:
     if value is None:
         print(f"Did not find env var {var}")
     else:
-        print(f"Got env var {var}: {value}")
+        print(f"Got env var {var}: \"{value}\"")
